@@ -26,7 +26,7 @@ public class HelloServlet extends HttpServlet{
 	@Override
 	protected void service(HttpServletRequest request, HttpServletResponse response) 
 			throws ServletException, IOException{
-	       System.out.println("Servlet served");  
+	        System.out.println("Servlet served");  
 	       
 	        // 1.Get parameter from HTTP header  
 	        String goWhere = request.getParameter("goto");  
